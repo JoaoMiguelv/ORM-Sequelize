@@ -2,6 +2,8 @@ const Sequelize = require('sequelize')
 const dbConfig = require('../config/database.js')
 
 const categorias = require('../api/models/categoriasModels')
+const departamentos = require('../api/models/departamentosModels')
+
 
 const conexao = new Sequelize(dbConfig)
 
@@ -13,5 +15,6 @@ try{
 }
 
 categorias.init(conexao)
+departamentos.init(conexao)
 
 module.exports = conexao;
