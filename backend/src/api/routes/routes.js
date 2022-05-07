@@ -7,9 +7,10 @@ const categoriasControllers = require('../controllers/categoriasControllers.js')
 // rota raiz
 routes.get('/', controllers.indexRaiz)
 
-// rota de categorias
+// rotas de categorias
 routes.get('/categorias', categoriasControllers.index)
 routes.post('/categorias', categoriasControllers.store)
+routes.put('/categorias/:codigo_id', categoriasControllers.update)
 
 module.exports = routes
 
