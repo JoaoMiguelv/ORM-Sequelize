@@ -4,6 +4,7 @@ const routes = express.Router()
 const controllers = require('../controllers/indexControllers.js')
 const categoriasControllers = require('../controllers/categoriasControllers.js')
 const departamentosControllers = require('../controllers/departamentosControllers.js')
+const timesControllers = require('../controllers/timesControllers.js')
 
 // rota raiz
 routes.get('/', controllers.indexRaiz)
@@ -17,6 +18,12 @@ routes.put('/categorias/:codigo_id', categoriasControllers.update)
 routes.get('/departamentos', departamentosControllers.index)
 routes.post('/departamentos', departamentosControllers.store)
 routes.put('/departamentos/:codigo_id', departamentosControllers.update)
+
+// rotas de times
+routes.get('/times', timesControllers.index)
+routes.post('/times', timesControllers.store)
+routes.put('/times/:codigo_id', timesControllers.update)
+routes.delete('/times/:codigo_id', timesControllers.delete)
 
 module.exports = routes
 
