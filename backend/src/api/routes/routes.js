@@ -13,6 +13,8 @@ routes.get('/', controllers.indexRaiz)
 routes.get('/categorias', categoriasControllers.index)
 routes.post('/categorias', categoriasControllers.store)
 routes.put('/categorias/:codigo_id', categoriasControllers.update)
+routes.delete('/categorias/:codigo_id', categoriasControllers.delete)
+routes.get('/categorias/:codigo_id', categoriasControllers.indexId)
 
 // rotas de departamentos
 routes.get('/departamentos', departamentosControllers.index)
