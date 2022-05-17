@@ -1,0 +1,15 @@
+.AreaDados {
+  height: 71vh;
+  border: 0.3vh solid rgb(20, 20, 20);
+
+  margin: 0.2% 0.2% 0.2% 0.2%;
+  background-color: rgb(170, 170, 170);;
+
+  padding-top: 0.9%;
+
+  box-shadow: 0.1% 0.1% rgb(20, 20, 20);
+  color: black;
+
+  text-align: center;
+}
+

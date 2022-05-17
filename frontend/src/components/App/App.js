@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css';
-
+import Geral from "../Geral/Geral.js";
 
 function App() {
   return (
     <div className="App">
-      <h2> Iniciando com ReactJs</h2>
+      <Geral/>
     </div>
   );
 }

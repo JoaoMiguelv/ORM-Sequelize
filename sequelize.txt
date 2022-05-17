@@ -6,3 +6,6 @@ npx sequelize-cli migration:create --name=criar-{nome da tabela}
 
 Criar Tabela:
 npx sequelize-cli db:migrate
+
+
+

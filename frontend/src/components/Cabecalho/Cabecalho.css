@@ -1,0 +1,10 @@
+.cabecalho {
+  height: 8vh;
+  border: 0.3vh solid rgb(20, 20, 20);
+
+  margin: 0.2%;
+  background-color: rgb(86, 86, 86);
+
+  text-align: center;
+}
+

@@ -1,0 +1,15 @@
+.Rodape {
+  height: 5vh;
+  border: 0.3vh solid rgb(20, 20, 20);
+
+  margin: 0.2% 0.2% 0.2% 0.2%;
+  background-color: rgb(86, 86, 86);;
+
+  padding-top: 0.9%;
+
+  box-shadow: 0.1% 0.1% rgb(20, 20, 20);
+  color: black;
+
+  text-align: center;
+}
+
