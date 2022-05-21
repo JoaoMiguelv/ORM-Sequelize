@@ -1,12 +1,16 @@
 import React from "react";
+
+import Routers from "../../routers";
+import { BrowserRouter } from "react-router-dom";
+
 import './App.css';
-import Geral from "../Geral/Geral.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <Geral/>
-    </div>
+    <BrowserRouter>
+      <Routers/>
+    </BrowserRouter>
   );
 }
 

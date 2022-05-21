@@ -12,7 +12,7 @@ server.use(express.json())
 
 server.use(routes)
 
-server.set('porta', 3000)
+server.set('porta', 3010)
 server.set('url', 'http://localhost:')
 
 http.createServer(server).listen(server.get('porta'), function() {

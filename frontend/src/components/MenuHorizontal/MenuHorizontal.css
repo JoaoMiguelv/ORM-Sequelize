@@ -13,3 +13,24 @@
   text-align: center;
 }
 
+.navMenu ul{
+  list-style: none;
+  text-align: left;
+}
+
+.navMenu ul li {
+  display: inline;
+}
+
+.navMenu ul li a {
+  padding-left: 1vw;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navMenu ul li a:hover {
+  color: rgb(178, 29, 29);
+  font-weight: bold;
+  font-size: 32;
+}
